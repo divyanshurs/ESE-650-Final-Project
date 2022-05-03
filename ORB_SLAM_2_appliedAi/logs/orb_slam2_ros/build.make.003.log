@@ -1,0 +1,25 @@
+[  1%] Built target std_msgs_generate_messages_lisp
+[  1%] Built target orb_slam2_ros_gencfg
+[  1%] Built target std_msgs_generate_messages_py
+[  1%] Built target std_msgs_generate_messages_eus
+[  1%] Built target std_msgs_generate_messages_nodejs
+[  1%] Built target std_msgs_generate_messages_cpp
+[ 11%] Built target DBoW2
+[ 52%] Built target g2o
+[ 52%] Built target _orb_slam2_ros_generate_messages_check_deps_SaveMap
+[35m[1mScanning dependencies of target orb_slam2_ros[0m
+[ 54%] Built target orb_slam2_ros_generate_messages_lisp
+[ 58%] Built target orb_slam2_ros_generate_messages_nodejs
+[ 58%] Built target orb_slam2_ros_generate_messages_py
+[ 61%] Built target orb_slam2_ros_generate_messages_eus
+[ 62%] Built target orb_slam2_ros_generate_messages_cpp
+[ 62%] Built target orb_slam2_ros_generate_messages
+[ 63%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.o[0m
+[ 65%] [32m[1mLinking CXX shared library /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/lib/liborb_slam2_ros.so[0m
+[ 87%] Built target orb_slam2_ros
+[ 91%] [32m[1mLinking CXX executable /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/devel/.private/orb_slam2_ros/lib/orb_slam2_ros/orb_slam2_ros_stereo[0m
+[ 91%] [32m[1mLinking CXX executable /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/devel/.private/orb_slam2_ros/lib/orb_slam2_ros/orb_slam2_ros_rgbd[0m
+[ 91%] [32m[1mLinking CXX executable /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/devel/.private/orb_slam2_ros/lib/orb_slam2_ros/orb_slam2_ros_mono[0m
+[ 94%] Built target orb_slam2_ros_mono
+[100%] Built target orb_slam2_ros_stereo
+[100%] Built target orb_slam2_ros_rgbd

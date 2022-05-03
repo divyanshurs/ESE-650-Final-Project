@@ -1,0 +1,6 @@
+devel_space: /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/devel
+install: false
+install_space: /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/install
+profile: default
+source_space: /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src
+workspace: /home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi

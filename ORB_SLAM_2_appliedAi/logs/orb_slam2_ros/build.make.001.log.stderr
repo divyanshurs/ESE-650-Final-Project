@@ -1,0 +1,36 @@
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:[m[K In member function ‘[01m[Kint ORB_SLAM2::ORBmatcher::SearchForInitialization(ORB_SLAM2::Frame&, ORB_SLAM2::Frame&, std::vector<cv::Point_<float> >&, std::vector<int>&, int)[m[K’:
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:485:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+  485 |                     **[01;31m[K_int[m[K bin = round(rot/(360.0f*factor));_**
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[Ku_int[m[K
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:485:61:[m[K [01;31m[Kerror: [m[K‘[01m[K_[m[K’ was not declared in this scope
+  485 |                     **_int bin = round(rot/(360.0f*factor));[01;31m[K_[m[K**
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:485:61:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+                 from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+                 from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/serialization/array_optimization.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/serialization/array_wrapper.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/serialization/vector.hpp:34[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/include/BoostArchiver.h:14[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/include/KeyFrameDatabase.h:31[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/include/KeyFrame.h:30[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/include/ORBmatcher.h:29[m[K,
+                 from [01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:21[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+   14 | typedef arg< -1 > [01;36m[K_[m[K;
+      |                   [01;36m[K^[m[K
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:486:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+  486 |                     [01;31m[Kif[m[K(bin==HISTO_LENGTH)
+      |                     [01;31m[K^~[m[K
+[01m[K/home/divyanshu/ORB_SLAM/ORB_SLAM_2_appliedAi/src/orb_slam_2_ros/orb_slam2/src/ORBmatcher.cc:489:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbin[m[K’ was not declared in this scope; did you mean ‘[01m[Ksin[m[K’?
+  489 |                     rotHist[[01;31m[Kbin[m[K].push_back(i1);
+      |                             [01;31m[K^~~[m[K
+      |                             [32m[Ksin[m[K
+make[2]: *** [CMakeFiles/orb_slam2_ros.dir/build.make:128: CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2200: CMakeFiles/orb_slam2_ros.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
