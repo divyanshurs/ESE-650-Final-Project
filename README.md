@@ -1,4 +1,3 @@
-# thegradreadme
 # Leveraging mobile sensor suite for SLAM
 ## Team Members:
 #### Divyanshu Sahu : Camera integration pipeline, ROS framework setup, ORB SLAM 2
